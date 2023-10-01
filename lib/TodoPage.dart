@@ -11,13 +11,14 @@ class TodoPage extends StatefulWidget{
 }
 
 
-class TodoPageView extends StatefulWidget{
+class TodoPageView extends State<TodoPage>{
   @override
   Widget build (BuildContext context){
     return Scaffold(
       appBar:AppBar(
         title:Text("Todo")
-      )
+      ),
+    
     );
   }
 }
